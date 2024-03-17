@@ -1,0 +1,249 @@
+repo_name: LaggAt/truffle
+report_id: 041bb5796f15706e9bc2aa160dc4fb8a
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:54:29+00:00'
+requested_by: cgewecke
+provider: github
+branch: develop
+detected_tools_count: 18
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LaggAt/truffle
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/truffle
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-07-14 21:19:59.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-07-14 21:24:49.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-07-14 21:17:11.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-06-27 18:11:30.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2015-06-29 19:48:16.000000000 Z
+- name: solidity
+  description: How people build software
+  website_url: https://ethereum.github.io/solidity/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4959/1__IS8pZzkhvd6kUbSFpSgag.png
+  detection_source_url: https://github.com/LaggAt/truffle
+  detection_source: Repo Metadata
+- name: web3
+  website_url: https://github.com/ethereum/web3.js/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8418/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: g. nicholas d'andrea
+  last_updated_on: 2017-07-24 18:33:57.000000000 Z
+- name: clean-webpack-plugin
+  description: A webpack plugin to remove/clean your build folder
+  package_url: https://www.npmjs.com/clean-webpack-plugin
+  version: 0.1.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16068/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-07-14 21:17:11.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-07-14 21:17:11.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 0.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-07-14 21:17:11.000000000 Z
+- name: ganache-cli
+  description: '&lt;p align="center"&gt; &lt;em&gt;NOTICE&lt;/em&gt;: &lt;code&gt;testrpc&lt;/code&gt;
+    is now &lt;code&gt;ganache-cli&lt;/code&gt;'
+  package_url: https://www.npmjs.com/ganache-cli
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17271/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: g. nicholas d'andrea
+  last_updated_on: 2018-02-27 17:31:03.000000000 Z
+- name: solc
+  description: Solidity compiler
+  package_url: https://www.npmjs.com/solc
+  version: 0.4.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17248/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Vinay Agarwal
+  last_updated_on: 2018-01-17 08:05:08.000000000 Z
+- name: stream-buffers
+  description: Buffer-backed Streams for reading and writing
+  package_url: https://www.npmjs.com/stream-buffers
+  version: 3.0.1
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17778/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-06-02 18:17:09.000000000 Z
+- name: truffle-contract
+  description: A better contract abstraction for Ethereum
+  package_url: https://www.npmjs.com/truffle-contract
+  version: 1.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18163/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: g. nicholas d'andrea
+  last_updated_on: 2018-02-27 18:29:06.000000000 Z
+- name: web3
+  description: Ethereum JavaScript API
+  package_url: https://www.npmjs.com/web3
+  version: 0.16.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16369/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: g. nicholas d'andrea
+  last_updated_on: 2017-07-24 18:33:57.000000000 Z
+  vulnerabilities:
+  - name: Insecure Credential Storage in web3
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-27v7-qhfv-rqq8
+    detected_date: Aug 22
+    severity: low
+    first_patched:
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/LaggAt/truffle/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tim Coulter
+  last_updated_on: 2017-07-14 21:17:11.000000000 Z
